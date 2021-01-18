@@ -1,0 +1,672 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.clr {
+	clear: both;
+}
+
+.full-wrapper {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Common CSS End */
+@font-face {
+	font-family: 'opensans_reg';
+	src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'oswald-reg';
+	src: url(../fonts/oswald/static/Oswald-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'oswald-bold';
+	src: url(../fonts/oswald/static/Oswald-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'oswald-medium';
+	src: url(../fonts/oswald/static/Oswald-Medium.ttf);
+}
+
+/* Font import area end */
+
+
+.mr-20 {
+	margin-right: 20px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.m-10 {
+	margin: 0 10px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+/* spacing CSS end*/
+
+.header-bg {
+	height: 32px;
+	background: #0872b9;
+}
+
+.header-bg .header {
+	height: 32px;
+	/*	background: #b9084c;*/
+}
+
+.header-bg .header .header-text {
+	width: 710px;
+	height: 32px;
+	/*	background: #08b99e;*/
+	float: left;
+	padding-left: 10px;
+	line-height: 32px;
+	font-family: 'opensans_reg';
+	font-size: 14px;
+	color: #e7e7e7;
+	box-sizing: border-box;
+}
+
+.header-bg .header .header-social {
+	width: 250px;
+	height: 32px;
+	/*	background: #3b3be2;*/
+	float: left;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.header-bg .header .header-social ul {
+	float: right;
+}
+
+.header-bg .header .header-social ul li {
+	float: left;
+}
+
+.header-bg .header .header-social ul li a i {
+	color: #e7e7e7;
+	line-height: 32px;
+	font-size: 14px;
+	padding-left: 24px;
+	transition: all linear 0.4s;
+}
+
+.header-bg .header .header-social ul li:hover a i {
+	color: #353535;
+}
+
+.menu-bg {
+	height: 80px;
+
+}
+
+.menu-bg .menu {
+	height: 80px;
+
+}
+
+.menu-bg .menu .logo {
+	width: 90px;
+	height: 80px;
+	float: left;
+	padding-left: 10px;
+}
+
+.menu-bg .menu .logo a img {
+	padding-top: 20px;
+}
+
+.menu-bg .menu .menu-list {
+	width: 850px;
+	height: 80px;
+	float: left;
+	padding-right: 10px;
+}
+
+.menu-bg .menu .menu-list ul {
+	float: right;
+}
+
+.menu-bg .menu .menu-list ul li {
+	float: left;
+}
+
+.menu-bg .menu .menu-list ul li a {
+	font-family: 'opensans_reg';
+	font-size: 14px;
+	color: #353535;
+	line-height: 80px;
+	text-transform: capitalize;
+	padding-left: 16px;
+	transition: all linear 0.4s;
+}
+
+.menu-bg .menu .menu-list ul li a:hover {
+	color: #0872b9;
+}
+
+.menu-bg .menu .menu-list ul li .active {
+	color: #0872b9;
+}
+
+/* menu CSS end*/
+
+/* bannar start */
+
+.banner-bg {
+	height: 400px;
+	background: url(../images/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner-bg .banner-overlay {
+	background: rgba(0, 0, 0, 0.6)
+}
+
+.banner-bg .banner-overlay .banner {
+	height: 400px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	text-align: right;
+	color: white;
+}
+
+.banner-bg .banner-overlay .banner h4 {
+	font-family: 'oswald-reg';
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 75px;
+}
+
+.banner-bg .banner-overlay .banner h1 {
+	font-family: 'oswald-bold';
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-top: -12px;
+}
+
+.banner-bg .banner-overlay .banner p {
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	line-height: 24px;
+	padding-left: 480px;
+	margin-top: 10px;
+
+}
+
+.banner-bg .banner-overlay .banner a {
+	font-family: 'oswald-medium';
+	text-transform: uppercase;
+	font-size: 14px;
+	color: white;
+	border: 1px solid #fff;
+	display: inline-block;
+	line-height: 29px;
+	padding: 0 16px;
+	margin-left: 16px;
+	margin-top: 28px;
+	transition: all linear 0.4s;
+}
+
+.banner-bg .banner-overlay .banner a:hover {
+	background: #0872b9;
+	border-color: #0872b9;
+}
+
+/* bannar end */
+/* About start */
+
+.about-bg {
+	height: 330px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+}
+
+.about-bg .about {
+	height: 330px;
+
+}
+
+.about-bg .about .about-head {
+	height: 65px;
+
+}
+
+.about-bg .about .about-head h3 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #353535;
+	position: relative;
+	padding-top: 10px;
+}
+
+.about-bg .about .about-head h3::before {
+	content: '';
+	width: 48px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 432px
+}
+
+.about-bg .about .about-head h3::after {
+	content: '';
+	width: 3px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 483px
+}
+
+.about-bg .about .about-head h3 span {
+	position: relative;
+
+}
+
+.about-bg .about .about-head h3 span::before {
+	content: '';
+	width: 2px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 57px
+}
+
+.about-bg .about .about-head h3 span::after {
+	content: '';
+	width: 1px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 63px
+}
+
+.about-bg .about .about-content {
+	height: 265px;
+
+}
+
+.about-bg .about .about-content .about-image {
+	width: 390px;
+	height: 265px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	float: left;
+
+}
+
+.about-bg .about .about-content .about-text {
+	width: 550px;
+	height: 265px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	float: left;
+
+}
+
+.about-bg .about .about-content .about-text p {
+	font-family: 'opensans-reg';
+	font-size: 13px;
+	color: #555;
+	line-height: 24px;
+	margin-top: 40px;
+	text-align: justify;
+
+}
+
+.about-bg .about .about-content .about-text .last_p {
+	margin-top: 25px;
+	text-align: justify;
+}
+
+/* About end */
+
+
+/* service start */
+
+.service-bg {
+	height: 260px;
+	margin-bottom: 60px;
+
+}
+
+.service-bg .service {
+	height: 260px;
+	background: yellow;
+}
+
+.service-bg .service .service-head {
+	height: 90px;
+	background: lightgreen;
+
+}
+
+.service-bg .service .service-head h3 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #353535;
+	position: relative;
+}
+
+.service-bg .service .service-head h3::before {
+	content: '';
+	width: 48px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 412px
+}
+
+.service-bg .service .service-head h3::after {
+	content: '';
+	width: 3px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 463px
+}
+
+.service-bg .service .service-head h3 span {
+	position: relative;
+
+}
+
+.service-bg .service .service-head h3 span::before {
+	content: '';
+	width: 2px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 57px
+}
+
+.service-bg .service .service-head h3 span::after {
+	content: '';
+	width: 1px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 62px
+}
+
+.service-bg .service .service-content {
+	height: 170px;
+
+}
+
+.service-bg .service .service-content .service-item {
+	width: 300px;
+	height: 170px;
+	background: #f1f1f1;
+	text-align: center;
+	position: relative;
+	float: left;
+	transition: all linear 0.4s;
+}
+
+.service-bg .service .service-content .service-item:hover {
+	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3)
+}
+
+.service-bg .service .service-content .service-item .service-icon {
+	width: 70px;
+	height: 70px;
+	background: #f1f1f1;
+	border-radius: 50%;
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translate(-50%);
+	transition: all linear 0.4s;
+}
+
+.service-bg .service .service-content .service-item:hover .service-icon {
+	background: #5bc5f4;
+}
+
+.service-bg .service .service-content .service-item .service-icon::before {
+	content: '';
+	width: 74px;
+	height: 74px;
+	border-radius: 50%;
+	border: 1px solid #f1f1f1;
+	position: absolute;
+	top: -3px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.service-bg .service .service-content .service-item .service-icon img {
+	padding-top: 15px;
+}
+
+.service-bg .service .service-content .service-item h4 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #353535;
+	padding-top: 47px;
+	padding-bottom: 10px;
+}
+
+.service-bg .service .service-content .service-item p {
+	font-family: 'opensans_reg';
+	text-align: center;
+	font-size: 13px;
+	line-height: 24px;
+	color: #353535;
+	padding: 0 20px;
+}
+
+/* service end*/
+
+/* portfolio start*/
+
+.portfolio-bg {
+	height: 595px;
+}
+
+.portfolio-bg .portfolio {
+	height: 595px;
+
+}
+
+.portfolio-bg .portfolio .portfolio-head {
+	height: 55px;
+
+}
+
+.portfolio-bg .portfolio .portfolio-head h3 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #353535;
+	position: relative;
+}
+
+.portfolio-bg .portfolio .portfolio-head h3::before {
+	content: '';
+	width: 48px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 406px
+}
+
+.portfolio-bg .portfolio .portfolio-head h3::after {
+	content: '';
+	width: 3px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 456px
+}
+
+.portfolio-bg .portfolio .portfolio-head h3 span {
+	position: relative;
+
+}
+
+.portfolio-bg .portfolio .portfolio-head h3 span::before {
+	content: '';
+	width: 2px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 56px
+}
+
+.portfolio-bg .portfolio .portfolio-head h3 span::after {
+	content: '';
+	width: 1px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 60px
+}
+
+.portfolio-bg .portfolio .portfolio-galarry {
+	height: 540px;
+
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item {
+	width: 220px;
+	height: 540px;
+	float: left;
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .small-item {
+	width: 220px;
+	height: 220px;
+	position: relative;
+
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .small-item .overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	transition: all linear 0.4s;
+	opacity: 0;
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .small-item:hover .overlay {
+	opacity: 1;
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .small-item .overlay a i {
+	width: 40px;
+	height: 40px;
+	background: #5bc5f4;
+	display: inline-block;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .small-item img {
+	width: 100%;
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .long-item {
+	width: 220px;
+	height: 300px;
+	position: relative;
+
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .long-item .overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	transition: all linear 0.4s;
+	opacity: 0;
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .long-item:hover .overlay {
+	opacity: 1;
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .long-item .overlay a i {
+	width: 40px;
+	height: 40px;
+	background: #5bc5f4;
+	display: inline-block;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolio-bg .portfolio .portfolio-galarry .galarry-item .long-item img {
+	width: 100%;
+}
+
+
+
+/* portfolio end */
