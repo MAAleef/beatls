@@ -506,6 +506,7 @@ a {
 
 .portfolio-bg {
 	height: 595px;
+	margin-bottom: 60px;
 }
 
 .portfolio-bg .portfolio {
@@ -667,6 +668,316 @@ a {
 	width: 100%;
 }
 
-
-
 /* portfolio end */
+
+/* team start */
+
+.team-bg {
+	height: 370px;
+	margin-bottom: 60px;
+}
+
+.team-bg .team {
+	height: 370px;
+}
+
+.team-bg .team .team-head {
+	height: 55px;
+
+}
+
+.team-bg .team .team-head h3 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #353535;
+	position: relative;
+}
+
+.team-bg .team .team-head h3::before {
+	content: '';
+	width: 48px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 433px
+}
+
+.team-bg .team .team-head h3::after {
+	content: '';
+	width: 3px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 483px
+}
+
+.team-bg .team .team-head h3 span {
+	position: relative;
+
+}
+
+.team-bg .team .team-head h3 span::before {
+	content: '';
+	width: 2px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 56px
+}
+
+.team-bg .team .team-head h3 span::after {
+	content: '';
+	width: 1px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 60px
+}
+
+.team-bg .team .team-members {
+	height: 315px;
+	text-align: center;
+}
+
+.team-bg .team .team-members .member {
+	width: 220px;
+	height: 315px;
+	float: left;
+}
+
+.team-bg .team .team-members .member .member-image {
+	width: 220px;
+	height: 270px;
+	position: relative;
+	overflow: hidden;
+	transition: all linear .4s;
+
+}
+
+.team-bg .team .team-members .member:hover .member-image {
+	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3)
+}
+
+.team-bg .team .team-members .member .member-image .overlay {
+	width: 80px;
+	height: 270px;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	right: -50%;
+	top: 0;
+	transition: all linear .4s;
+}
+
+.team-bg .team .team-members .member:hover .member-image .overlay {
+	right: 0;
+
+}
+
+.team-bg .team .team-members .member .member-image .overlay ul {
+	margin-top: 35px;
+}
+
+.team-bg .team .team-members .member .member-image .overlay ul li {
+	margin-bottom: 15px;
+}
+
+.team-bg .team .team-members .member .member-image .overlay ul li a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 50%;
+	transition: all linear .4s;
+
+}
+
+.team-bg .team .team-members .member .member-image .overlay ul li a:hover {
+	background: #5bc5f4;
+	border-color: #5bc5f4;
+}
+
+.team-bg .team .team-members .member .member-details {
+	width: 220px;
+	height: 45px;
+
+}
+
+.team-bg .team .team-members .member .member-details h5 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #353535;
+	transition: all linear .4s;
+}
+
+.team-bg .team .team-members .member:hover .member-details h5 {
+	color: #5bc5f4;
+}
+
+.team-bg .team .team-members .member .member-details p {
+	font-family: 'oswald-reg';
+	text-align: center;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #353535;
+}
+
+/* team end */
+
+/*testmonial start */
+
+.testmonial-bg {
+	height: 350px;
+	margin-bottom: 60px;
+}
+
+.testmonial-bg .testmonial {
+	height: 350px;
+}
+
+.testmonial-bg .testmonial .testmonial-head {
+	height: 55px;
+
+}
+
+.testmonial-bg .testmonial .testmonial-head h3 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #353535;
+	position: relative;
+}
+
+.testmonial-bg .testmonial .testmonial-head h3::before {
+	content: '';
+	width: 48px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 413px
+}
+
+.testmonial-bg .testmonial .testmonial-head h3::after {
+	content: '';
+	width: 3px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 464px
+}
+
+.testmonial-bg .testmonial .testmonial-head h3 span {
+	position: relative;
+
+}
+
+.testmonial-bg .testmonial .testmonial-head h3 span::before {
+	content: '';
+	width: 2px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 56px
+}
+
+.testmonial-bg .testmonial .testmonial-head h3 span::after {
+	content: '';
+	width: 1px;
+	height: 1px;
+	background: #0872b9;
+	position: absolute;
+	bottom: 0;
+	left: 60px
+}
+
+.testmonial-bg .testmonial .testmonial-items {
+	height: 295px;
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item {
+	width: 460px;
+	height: 295px;
+	float: left;
+	text-align: center;
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item img {
+	margin-bottom: 31px;
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item .test-details {
+	width: 460px;
+	height: 180px;
+	background: #f1f1f1;
+	position: relative;
+	z-index: 1;
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item .test-details::before {
+	content: '';
+	width: 40px;
+	height: 40px;
+	background: #f1f1f1;
+	position: absolute;
+	left: 50%;
+	top: -11%;
+	transform: translateX(-50%) rotate(45deg);
+	z-index: -1;
+
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item .test-details h5 {
+	font-family: 'oswald-medium';
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #353535;
+	transition: all linear .4s;
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item .test-details ul {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item .test-details ul li {
+	float: left;
+	color: #5bc5f4;
+	padding-top: 6px;
+
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item .test-details h6 {
+	font-family: 'oswald-reg';
+	text-align: center;
+	font-size: 13px;
+	text-transform: capitalize;
+	color: #555555;
+	padding-top: 30px;
+}
+
+.testmonial-bg .testmonial .testmonial-items .test-item .test-details p {
+	font-family: 'oswald-reg';
+	text-align: center;
+	font-size: 13px;
+	line-height: 24px;
+	color: #555555;
+	padding-top: 15px;
+}
+
+/*testmonial end*/
